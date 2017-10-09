@@ -22,9 +22,9 @@ PRIMERSOS PASOS
 		datos de salida mas comodos para presentar al usuario.
 
 
-	DIRECTIV: ng-model
+	DIRECTIVA: ng-model
 
 		Nos permite enlazar a variables aunque no esten definidas
 
-		
+	
 
