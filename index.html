@@ -16,30 +16,40 @@
 
 	<div class="container">
 		
-		<h1>Filtros :: Filters</h1>
+		<h1>ng-model</h1>
 		<h4>en angularjs</h4>
 		<hr>
 
 		<p>
-			Filtro de texto: {{ "FerNandO"}}
+			Su nombre: {{ nombre | uppercase }}
 			<br>
-			Filtro de texto: {{ "FerNandO" | uppercase }}
-			<br>
-			Filtro de texto: {{ "FerNandO" | lowercase }}
+			<input type="text" ng-model="nombre" class="form-control" placeholder="Ingrese su nombre">
 		</p>
 
 		<p>
-			Filtro de moneda: {{ 1350 }}
+			Seleccione el país: {{ pais }}
 			<br>
-			Filtro de moneda: {{ 1350 | currency }}
-			<br>
-			Filtro de moneda: {{ 1350 | currency:'' }}
+			<select class="form-control" ng-model="pais">
+				<option value="1">Costa Rica</option>
+				<option value="2">México</option>
+				<option value="3">Colombia</option>
+			</select>
 		</p>
 
 		<p>
-			Filtro de numero: {{ 1350000 }}
+			Seleccione las opciones que desea: {{ opt1 }} {{ opt2 }}
 			<br>
-			Filtro de numero: {{ 1350000 | number }}
+			<input type="checkbox" ng-model="opt1"> Opción 1
+			<br>
+			<input type="checkbox" ng-model="opt2"> Opción 2
+		</p>
+
+		<p>
+			Seleccione el genero: {{ genero }}
+			<br>
+			<input type="radio" value="M" ng-model="genero"> Masculino
+			<br>
+			<input type="radio" value="F" ng-model="genero"> Femenino
 		</p>
 
 	</div>

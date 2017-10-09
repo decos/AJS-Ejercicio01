@@ -17,8 +17,14 @@ PRIMERSOS PASOS
 	
 	FILTROS - FILTERS
 
-		- Son una herramienta de AngularJS que tienen como función 
+		Son una herramienta de AngularJS que tienen como función 
 		modificar las entradas mediantes parametros, obtiendo asi
 		datos de salida mas comodos para presentar al usuario.
 
+
+	DIRECTIV: ng-model
+
+		Nos permite enlazar a variables aunque no esten definidas
+
 		
+
