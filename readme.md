@@ -1,5 +1,9 @@
 PRIMERSOS PASOS
 	
+	RECURSOS
+		- https://docs.angularjs.org/api/ng/filter
+
+
 	HOLA MUNDO
 
 		- ¿QUE ES UNA DIRECTIVA?
@@ -11,4 +15,10 @@ PRIMERSOS PASOS
 			por Angular
 
 	
-			
+	FILTROS - FILTERS
+
+		- Son una herramienta de AngularJS que tienen como función 
+		modificar las entradas mediantes parametros, obtiendo asi
+		datos de salida mas comodos para presentar al usuario.
+
+		
